@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         GITHUB_URL = 'https://github.com/TibaAlMafrachi/almafrtk-metallb-deploy.git'  // <---- Change this to match your cloned repository
-        KUBECONFIG = credentials('roseaw-225')   // <---- Change this to match your kubernetes cluster credentials
+        KUBECONFIG = credentials('almafrtk-225-sp26')   // <---- Change this to match your kubernetes cluster credentials
     }
 
     stages {
